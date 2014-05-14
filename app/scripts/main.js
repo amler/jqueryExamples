@@ -38,7 +38,7 @@ $('.six').click(function() {
 	$('.toggle').toggle('showOrHide');
 });
 
-$('.seven').click(function() {
-	$('.removeclass').removeclass('showOrHide');
-});
+
+$('.removeclass > span').removeclass('.highlight');
+
 
