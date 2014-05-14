@@ -34,4 +34,11 @@ $('.five').click(function() {
 	$('.animatesize').animate({width: '100%'}, 400, 'swing');
 });
 
+$('.six').click(function() {
+	$('.toggle').toggle('showOrHide');
+});
+
+$('.seven').click(function() {
+	$('.removeclass').removeclass('showOrHide');
+});
 
