@@ -23,23 +23,15 @@ $('.three').click(function() {
 	});
 });
 
-/*
-$("#kitten").hover(function(){
 
-    $(this).find("img").fadeOut();
 
-}, function() {
+$('.four').click(function() {
+		$('.hippocage').children('img').fadeOut();
+	}
+);
 
-    $(this).find("img").fadeIn();
-
-});
-*/
-
-//   var sureDelete = confirm("Are you sure you to delete this?");
-//   if (sureDelete === true) {
-/*      $('.bluebox').slideUp('slow', function() { 
-      });
-   
+$('.five').click(function() {
+	$('.animatesize').animate({width: '100%'}, 400, 'swing');
 });
 
-*/
+
