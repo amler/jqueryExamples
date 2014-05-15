@@ -24,7 +24,6 @@ h2 {
 
 p {
   margin: 10px;
-  display: inline-block;
   float: left;
 }
 
@@ -101,19 +100,21 @@ button {
   width: 400px;
 }
 
-
-
-span {
+.fontclass {
   font-size: 3em;
   font-weight: bolder;
-}
-
-.blue {
   color: #fff;
 }
 
-.highlight {
-  background: #f08;
+.pinkHilite {
+  background-color: #F08;
+  text-decoration: underline;
 }
 
+.purpleHilite {
+  background-color: #B100FF;
+}
 
+.toggletext {
+    padding: 10px;
+}

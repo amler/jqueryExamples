@@ -38,7 +38,12 @@ $('.six').click(function() {
 	$('.toggle').toggle('showOrHide');
 });
 
+$('.seven').click(function() {
+	$('p.fontclass:odd').removeClass('pinkHilite').addClass('purpleHilite');
+});
 
-$('.removeclass > span').removeclass('.highlight');
 
+$('.eight').click(function() {
+	$('.toggletext').text('Hi');
+});
 
