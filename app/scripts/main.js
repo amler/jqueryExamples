@@ -47,3 +47,7 @@ $('.eight').click(function() {
 	$('.toggletext').text('Hi');
 });
 
+$('.nine').click(function () {
+	$('.innerdiv').clone().insertAfter('.outerdiv'); 
+});
+
