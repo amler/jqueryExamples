@@ -54,5 +54,11 @@ $('.ten').click(function(){
 	$('.sibling2').siblings().css('border', '10px solid #0A2929');
 });
 
+$('.eleven').click(function(){
+	$('.slidetogglebox').slideToggle('slow');
+});
 
+$('.twelve').dblclick(function() {
+	$('.removed').remove();
+});
 
