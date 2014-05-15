@@ -2,10 +2,10 @@
 'use strict';
 
 $('.one').click(function() {
-	if ( $( '.bluebox' ).is( ':hidden' ) ) {
-		$( '.bluebox' ).show( 'slow' );
+	if ( $( '.corgibox' ).is( ':hidden' ) ) {
+		$( '.corgibox' ).show( 'slow' );
 	} else {
-		$( '.bluebox' ).slideUp();
+		$( '.corgibox' ).slideUp();
 	}
 });
 
@@ -22,8 +22,6 @@ $('.three').click(function() {
 		transition       : 'border-radius .2s ease-in-out'
 	});
 });
-
-
 
 $('.four').click(function() {
 		$('.hippocage').children('img').fadeOut();
@@ -48,6 +46,13 @@ $('.eight').click(function() {
 });
 
 $('.nine').click(function () {
-	$('.innerdiv').clone().insertAfter('.outerdiv'); 
+	$('.innerdiv').clone().insertAfter('.outerdiv');
 });
+
+
+$('.ten').click(function(){
+	$('.sibling2').siblings().css('border', '10px solid #0A2929');
+});
+
+
 

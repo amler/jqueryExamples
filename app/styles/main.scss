@@ -67,7 +67,7 @@ button {
     }
 }
 
-.bluebox {
+.corgibox {
   background-image:url('http://24.media.tumblr.com/tumblr_l599tkjPgL1qza4ndo1_500.jpg');
   background-size: cover;
   width: 960px;
@@ -131,4 +131,26 @@ button {
   background-color: #CCC;
   margin: 10px;
   color: #333;
+}
+
+.sibling1 {
+  float: left;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: #099;
+}
+.sibling2 {
+  float: left;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: #4DB8B8;
+}
+.sibling3 {
+  float: left;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: #99D6D6;
 }
