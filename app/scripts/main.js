@@ -62,3 +62,18 @@ $('.twelve').dblclick(function() {
 	$('.removed').remove();
 });
 
+$('.thirteen').click(function() {
+	$('.fadindiv').delay(800).fadeIn('slow');
+});
+
+
+$('.fourteen').click(function() {
+	$('.hidediv').hide(100);
+});
+
+$('.fifteen').click(function() {
+	$('.fadeto').fadeTo( 'slow', 0.50 );
+});
+
+
+

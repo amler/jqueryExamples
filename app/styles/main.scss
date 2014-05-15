@@ -37,13 +37,11 @@ p {
 .example-container {
     overflow: hidden;
     min-height: 400px;
-    border: 1px solid red;
 }
 
 
 .example {
   position: relative;
-  border: 1px solid blue;
   min-height: 400px;
 }
 
@@ -165,7 +163,20 @@ button {
   height: 370px;
   background-color: #52CC7A;
 }
+.fadindiv {
+  display: none;
+  background-image:url('http://24.media.tumblr.com/tumblr_l599tkjPgL1qza4ndo1_500.jpg');
+  background-size: cover;
+  width: 960px;
+  height: 400px;
+}
 
+.hidediv,
+.fadeto {
+  background-color: #52CC7A;
+  width: 960px;
+  height: 400px;
+}
 
 
 
